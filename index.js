@@ -164,8 +164,8 @@ asifLft = await getBuffer(ppuser)
                 if (anu.action == 'add') {
                 const asifbuffer = await getBuffer(ppuser)
                 let asifName = num
-                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const xtime = moment.tz('Asia/Karachi').format('HH:mm:ss')
+	            const xdate = moment.tz('Asia/Karachi').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: asifWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'asif', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 asifbody = `╭─────────────┈⊷
@@ -197,7 +197,7 @@ let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 🇵🇰'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./asifMedia/theme/cheems.xlsx'),
+document: fs.readFileSync('./LunaMedia/theme/luna.xlsx'),
 mimetype: docs,
 jpegThumbnail:asifWlcm,
 mentions: [num],
@@ -219,8 +219,8 @@ mediaUrl: `${websitex}`
 AsifOfc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 } else if (anu.action == 'remove') {
                 	const asifbuffer = await getBuffer(ppuser)
-                    const asiftime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	                const asifdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                    const asiftime = moment.tz('Asia/Karachi').format('HH:mm:ss')
+	                const asifdate = moment.tz('Asia/Karachi').format('DD/MM/YYYY')
                 	let asifName = num
                     const asifmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: asifbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'asif', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
@@ -253,7 +253,7 @@ let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Bye'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./LunaMedia/theme/Luna.xlsx'),
+document: fs.readFileSync('./LunaMedia/theme/luna.xlsx'),
 mimetype: docs,
 jpegThumbnail:asifLft,
 mentions: [num],
