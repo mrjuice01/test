@@ -85,10 +85,10 @@ let bad = JSON.parse(fs.readFileSync('./src/toxic/bad.json'));
 let autorep =JSON.parse(fs.readFileSync('./database/autoreply.json'));
 
 //database auto reply
-let asifysticker = JSON.parse(fs.readFileSync('./Lunapicture.jpg/theme/Media-Store-Karne-Ke-Liye/sticker.json'));
-let asifyaudio = JSON.parse(fs.readFileSync('./Lunapicture.jpg/theme/Media-Store-Karne-Ke-Liye/audio.json'));
-let asifyimage = JSON.parse(fs.readFileSync('./Lunapicture.jpg/theme/Media-Store-Karne-Ke-Liye/image.json'));
-let asifyvideo = JSON.parse(fs.readFileSync('./Lunapicture.jpg/theme/Media-Store-Karne-Ke-Liye/video.json'));
+let asifysticker = JSON.parse(fs.readFileSync('./LunaMedia/theme/Media-Store-Karne-Ke-Liye/sticker.json'));
+let asifyaudio = JSON.parse(fs.readFileSync('./LunaMedia/theme/Media-Store-Karne-Ke-Liye/audio.json'));
+let asifyimage = JSON.parse(fs.readFileSync('./LunaMedia/theme/Media-Store-Karne-Ke-Liye/image.json'));
+let asifyvideo = JSON.parse(fs.readFileSync('./LunaMedia/theme/Media-Store-Karne-Ke-Liye/video.json'));
 
 module.exports = AsifOfc = async (AsifOfc, m, chatUpdate, store) => {
     try {
