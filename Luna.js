@@ -6667,7 +6667,7 @@ const listMessage = {
   buttonText: "Menu",
   sections
 }
-const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
+const sendMsg = await AsifOfc.sendMessage(m.chat, listMessage)
 }
 break
             case 'allmenu':{
