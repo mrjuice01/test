@@ -149,7 +149,7 @@ if (cek == null) return null
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
 		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
-	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./Lunapicture.jpg/theme/Lunapicture.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
+	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./LunaMedia/theme/Lunapicture.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 		
 	
 // Group
@@ -295,7 +295,7 @@ limitabis = `*[YOUR LIMIT IS EXPIRED]*\nBuy limit in ${prefix}buylimit or buy pr
     //reply fake
 	//group target \\
 const reply = (teks) => {
-           AsifOfc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `${ownername}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Lunapicture.jpg/theme/Lunapicture.jpg`),"sourceUrl": `${linkz}`}}}, { quoted: m})
+           AsifOfc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `${ownername}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./LunaMedia/theme/Lunapicture.jpg`),"sourceUrl": `${linkz}`}}}, { quoted: m})
         }
 
 	//button
@@ -641,28 +641,28 @@ AsifOfc.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.sende
   if (Autoreply)
         for (let anji of asifysticker){
 				if (budy === anji){
-					result = fs.readFileSync(`./Lunapicture.jpg/sticker/${anji}.webp`)
+					result = fs.readFileSync(`./LunaMedia/sticker/${anji}.webp`)
 					AsifOfc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
 			  if (Autoreply)
 			for (let anju of asifyaudio){
 				if (budy === anju){
-					result = fs.readFileSync(`./Lunapicture.jpg/audio/${anju}.mp3`)
+					result = fs.readFileSync(`./LunaMedia/audio/${anju}.mp3`)
 					AsifOfc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
 			  if (Autoreply)
 			for (let anjh of asifyimage){
 				if (budy === anjh){
-					result = fs.readFileSync(`./Lunapicture.jpg/image/${anjh}.jpg`)
+					result = fs.readFileSync(`./LunaMedia/image/${anjh}.jpg`)
 					AsifOfc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
 			  if (Autoreply) 
 					for (let anjh of asifyvideo){
 				if (budy === anjh){
-					result = fs.readFileSync(`./Lunapicture.jpg/video/${anjh}.mp4`)
+					result = fs.readFileSync(`./LunaMedia/video/${anjh}.mp4`)
 					AsifOfc.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
@@ -3824,7 +3824,7 @@ case 'setthumb':{
                        if (!m.key.fromMe && !isCreator) return m.reply(mess.owner)
                        if (!isQuotedImage) return m.reply('Reply the picture!')
                                  let media = await AsifOfc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage, 'image')
-                await fs.writeFileSync('./Lunapicture.jpg/theme/Lunapicture.jpg', media)
+                await fs.writeFileSync('./LunaMedia/theme/Lunapicture.jpg', media)
                m.reply(mess.success)
             }
           break
@@ -6251,9 +6251,9 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"𝙵𝙾𝙻𝙻𝙾𝚆 𝙾𝙽 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼",
+title:"𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙼𝚈 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
 body: "🤤😢", 
-thumbnail: fs.readFileSync("Lunapicture.jpg/theme/Lunapicture.jpg"),
+thumbnail: fs.readFileSync("LunaMedia/theme/Lunapicture.jpg"),
 mediaType:1,
 mediaUrl: 'https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg',
 sourceUrl: "https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg"
@@ -6499,7 +6499,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let ments = [ownernya, me, ini_mark]        
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: '🌹𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄🌹' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: '🌹𝚂𝙲𝚁𝙸𝙿𝚃🌹' }, type: 1 }]
             let buttonMessage = {
-  document: fs.readFileSync('./Lunapicture.jpg/theme/luna.xlsx'),
+  document: fs.readFileSync('./LunaMedia/theme/luna.xlsx'),
   fileName : `${wm}`,
   mimetype: `${docs}`,
   fileLength: '99999999999999',
