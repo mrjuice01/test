@@ -6525,7 +6525,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             break
             case 'command': {
 	const sections = [{
-								"title": "Initial 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 𝙾𝙵 𝙱𝙰𝚈𝙼𝙰𝚇🙂",
+								"title": "Initial 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 𝙾𝙵 𝙻𝚄𝙽𝙰-𝙼𝙳💃",
 								"rows": [
 									{
 										"title": "𝙾𝚃𝙷𝙴𝚁😢",
@@ -6538,7 +6538,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								"title": "𝙱𝙾𝚃 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂❤️",
 								"rows": [
 									{
-										"title": "𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🇵🇰",
+										"title": "𝙰𝙻𝙻 𝙼𝙴𝙽𝚄",
 										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
 										"rowId": `${prefix}allmenu`
 									},
@@ -6638,17 +6638,19 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 										"rowId": `${prefix}othermenu`
 									     },
 										{
-								"title": "𝙲𝙷𝙰𝚃 𝚆𝙸𝚃𝙷 𝙵𝙴𝙻𝙻𝙾𝚆 𝚄𝚂𝙴𝚁𝚂",
-								"rows": [
-									{
-										"title": "𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃 𝙼𝙴𝙽𝚄☠️️",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃",
-										"rowId": `${prefix}anonymousmenu`
+										"title": "𝚆𝙰𝚁 𝙼𝙴𝙽𝚄🔫",
+										"description": "𝚃𝙷𝙸𝚂 𝙸𝚂 𝚆𝙷𝙴𝚁𝙴 𝚈𝙾𝚄 𝙰𝙻𝙻 𝙳𝙸𝙴👿",
+										"rowId": `${prefix}warmenu`
 									}
 								]
 							},
 							{
-								"title": "©⏤͟͟͞͞ ❝𝙰𝚂𝙸𝙵 𝙾𝙵𝙲👑❞",
+										"title": "𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃 𝙼𝙴𝙽𝚄☠️️",
+										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃",
+										"rowId": `${prefix}anonymousmenu`
+									},
+										{
+								"title": "©⏤͟͟͞͞ ❝𝙰𝚂𝙸𝙵 𝙺𝙷𝙰𝙽👑❞",
 								"rows": [
 									{
 										"title": "𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾🌹️",
@@ -6658,14 +6660,14 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								]
 							}
 						]
-  const listMessage = {
+const listMessage = {
   text: "𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙷𝙾𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄",
-  footer: `${botname}\n👙𝚂𝙲𝚁𝙸𝙿𝚃: ${botscript}`,
+  footer: `${botname}\n😢𝚆𝙴𝙱𝚂𝙸𝚃𝙴: ${websitex}\n👙𝚂𝙲𝚁𝙸𝙿𝚃: ${botscript}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
 }
-const sendMsg = await AsifOfc.sendMessage(m.chat, listMessage)
+const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
             case 'allmenu':{
