@@ -6496,8 +6496,31 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    ┃⍈𔘓 🌹𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙻𝙸𝙲𝙺🌹
    ┃⍈𔘓 🌹 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂🌹
    ╰══════════════╯`
-            let ments = [ownernya, me, ini_mark]        
-            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }
+             let ments = [ownernya, me, ini_mark]        
+            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: '🌹𝚂𝙲𝚁𝙸𝙿𝚃🌹' }, type: 1 }]
+            let buttonMessage = {
+  document: fs.readFileSync('./LunaMedia/theme/luna.xlsx'),
+  fileName : `${wm}`,
+  mimetype: `${docs}`,
+  fileLength: '99999999999999',
+  pageCount: '1000000000',
+  caption: asifezy,
+  footer: botname,
+  buttons: buttons,
+  mentions: ments,
+  headerType: 4,
+  contextInfo:{externalAdReply:{
+  title: botname,
+  body: wm, 
+  showAdAttribution: true,
+  thumbnail: thumb,
+  mediaType: 2,
+  mediaUrl: websitex,
+  sourceUrl: websitex
+  }}
+  }
+  AsifOfc.sendMessage(m.chat, buttonMessage, {quoted: fkontak})
+  }
             break
             case 'allmenu':{
 var unicorn = await getBuffer(picak+'All Menu')
