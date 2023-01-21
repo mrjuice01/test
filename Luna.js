@@ -7213,11 +7213,14 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}request
 ┃•𖥔  ${prefix}report [bug]
 ┗══════✪🌌✪══════┛`,
+}
+const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
+}
+break
 
 
-
-               default:
-                if (budy.startsWith('=>')) {
+             default:
+               if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
                     function Return(sul) {
                         sat = JSON.stringify(sul, null, 2)
