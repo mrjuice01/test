@@ -6498,7 +6498,6 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    ╰══════════════╯`
             let ments = [ownernya, me, ini_mark]        
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }
- break
             break
             case 'allmenu':{
 var unicorn = await getBuffer(picak+'All Menu')
