@@ -7214,8 +7214,9 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}report [bug]
 ┗══════✪🌌✪══════┛`,
 
-break
-            default:
+
+
+               default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
                     function Return(sul) {
