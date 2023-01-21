@@ -6426,8 +6426,8 @@ var inputnumber = text.split(" ")[0]
 break
 case 'tqtt': 
 throw `╭══════✪𝙲𝚁𝙴𝙳𝙸𝚃✪══════╮ 
-┃🌹 ᴍᴇ ᴍʀ ᴊᴜɪᴄᴇ||°🤤
-┃🌹ᴀꜱɪꜰ
+┃🌹 ᴍᴇ ᴀꜱɪꜰ||°🌌
+┃🌹ᴍʀ ᴊᴜɪᴄᴇ||°🤤
 ┃🌹ᴇʀʀᴏʀ ᴍᴏᴅꜱ ᴏꜰᴄ
 ┃🌹ɴᴏᴏɴᴇ ᴇʟꜱᴇ 😢💔
 ╰══════✪✞✪══════╯`
@@ -6497,172 +6497,9 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
    ┃⍈𔘓 🌹 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂🌹
    ╰══════════════╯`
             let ments = [ownernya, me, ini_mark]        
-            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: '🌹𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄🌹' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: '🌹𝚂𝙲𝚁𝙸𝙿𝚃🌹' }, type: 1 }]
-            let buttonMessage = {
-  document: fs.readFileSync('./LunaMedia/theme/luna.xlsx'),
-  fileName : `${wm}`,
-  mimetype: `${docs}`,
-  fileLength: '99999999999999',
-  pageCount: '1000000000',
-  caption: asifezy,
-  footer: botname,
-  buttons: buttons,
-  mentions: ments,
-  headerType: 4,
-  contextInfo:{externalAdReply:{
-  title: botname,
-  body: wm, 
-  showAdAttribution: true,
-  thumbnail: thumb,
-  mediaType: 2,
-  mediaUrl: websitex,
-  sourceUrl: websitex
-  }}
-  }
-  AsifOfc.sendMessage(m.chat, buttonMessage, {quoted: fkontak})
-  }
+            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '🌹𝙰𝙻𝙻 𝙼𝙴𝙽𝚄🌹' }
  break
             break
-            case 'command': {
-	const sections = [{
-								"title": "Initial 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 𝙾𝙵 𝙻𝚄𝙽𝙰-𝙼𝙳💃",
-								"rows": [
-									{
-										"title": "𝙾𝚃𝙷𝙴𝚁😢",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙾𝚃𝙷𝙴𝚁 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}othermenu`
-									}
-								]
-							},
-							{
-								"title": "𝙱𝙾𝚃 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂❤️",
-								"rows": [
-									{
-										"title": "𝙰𝙻𝙻 𝙼𝙴𝙽𝚄",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}allmenu`
-									},
-									{
-										"title": "𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄😭",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙾𝙽𝙻𝚈 𝙾𝚆𝙽𝙴𝚁 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}ownermenu`
-										},
-									{
-										"title": "𝙶𝚁𝙾𝚄𝙿 𝙼𝙴𝙽𝚄🥂",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙼𝙰𝙸𝙽 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}groupmenu`
-										},
-										{
-										"title": "𝙼𝙰𝙺𝙴𝚁 𝙼𝙴𝙽𝚄🌼",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙻𝙾𝙶𝙾 𝙼𝙰𝙺𝙸𝙽𝙶 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}makermenu`
-									},
-									{
-										"title": "𝚂𝙾𝚄𝙽𝙳 𝙼𝙴𝙽𝚄 🎵",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝚂𝙾𝚄𝙽 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}soundmenu`
-									},
-									{
-										"title": "𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄 ↘️",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}downloadmenu`
-									},
-									{
-										"title": "𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙼𝙴𝙽𝚄👿",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}stickermenu`
-									},
-									{
-										"title": "𝚂𝙴𝙰𝙲𝙷 𝙼𝙴𝙽𝚄 🔎",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝚂𝙴𝙰𝙲𝙷𝙸𝙽𝙶 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}searchmenu`
-									},
-									{
-										"title": "𝚁𝙰𝙽𝙳𝙾𝙼 𝙸𝙼𝙰𝙶𝙴 𝙼𝙴𝙽𝚄🌆",
-										"description": "𝙳𝙸𝚂𝙻𝙰𝚈𝚂 𝚁𝙰𝙽𝙳𝙾𝙼 𝙸𝙼𝙰𝙶𝙴 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}randomimagemenu`
-									},
-									{
-										"title": "𝚁𝙰𝙽𝙳𝙾𝙼 𝚅𝙸𝙳𝙴𝙾 𝙼𝙴𝙽𝚄🌆",
-										"description": "𝙳𝙸𝚂𝙻𝙰𝚈𝚂 𝚁𝙰𝙽𝙳𝙾𝙼 𝚅𝙸𝙳𝙴𝙾 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}randomvideomenu`
-									},
-									{
-										"title": "𝙸𝙼𝙰𝙶𝙴 𝙴𝙵𝙵𝙴𝙲𝚃 𝙼𝙴𝙽𝚄🎇️",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙸𝙼𝙰𝙶𝙴 𝙴𝙵𝙵𝙴𝙲𝚃𝚂",
-										"rowId": `${prefix}imageeffectmenu`
-									},
-										{
-											"title": "𝙰𝙽𝙸𝙼𝙴 𝙼𝙴𝙽𝚄👾",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈 𝚁𝙰𝙽𝙳𝙾𝙼 𝙰𝙽𝙸𝙼𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}animemenu`
-										},
-										{
-											"title": "𝙴𝙼𝙾𝚃𝙴 𝙼𝙴𝙽𝚄😀",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙴𝙼𝙾𝚃𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}emotemenu`
-										},
-										{
-										"title": "𝙰𝙽𝙸𝙼𝙴 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙼𝙴𝙽𝚄️🐧",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙽𝙸𝙼𝙴 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂",
-										"rowId": `${prefix}animestickermenu`
-									     },
-									{
-										"title": "𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄👙",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}nsfwmenu`
-									     },
-										{
-											"title": "𝙵𝚄𝙽 𝙼𝙴𝙽𝚄 🕺",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙵𝚄𝙽 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}funmenu`
-										},
-										{
-										"title": "𝙶𝙰𝙼𝙴 𝙼𝙴𝙽𝚄 🎮",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙶𝙰𝙼𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}gamemenu`
-									},
-										{
-											"title": "𝙲𝙾𝙽𝚅𝙴𝚁𝚃 𝙼𝙴𝙽𝚄🗿",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙲𝙾𝙽𝚅𝙴𝚁𝚃 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}convertmenu`
-										},
-										{
-											"title": "𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 𝙼𝙴𝙽𝚄♻️",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝙼𝙴𝙽𝚄",
-										"rowId": `${prefix}databasemenu`
-										},
-										{
-										"title": "𝙾𝚃𝙷𝙴𝚁 𝙼𝙴𝙽𝚄 🐸",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙼𝙸𝚂𝙻𝙰𝙽𝙴𝙸𝚄𝚂 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂",
-										"rowId": `${prefix}othermenu`
-									     },
-										{
-										"title": "𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃 𝙼𝙴𝙽𝚄☠️️",
-										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃",
-										"rowId": `${prefix}anonymousmenu`
-									},
-										{
-								"title": "©⏤͟͟͞͞ ❝𝙰𝚂𝙸𝙵 𝙺𝙷𝙰𝙽👑❞",
-								"rows": [
-									{
-										"title": "𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾🌹️",
-										"description": "𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙳𝙴𝚂𝚅𝙴𝚁 𝙲𝚁𝙴𝙳𝙸𝚃 𝙵𝙾𝚁 𝚃𝙷𝙴 𝙱𝙾𝚃 !!",
-										"rowId": `${prefix}tqtt`
-									}
-								]
-							}
-						]
-const listMessage = {
-  text: "𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙷𝙾𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄",
-  footer: `𝙰𝚂𝙸𝙵 𝙾𝙵𝙲\nhttp://wa.me/+923474187615`,
-  title: `Hi 👋 ${pushname}`,
-  buttonText: "Menu",
-  sections
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, listMessage)
-}
-break
             case 'allmenu':{
 var unicorn = await getBuffer(picak+'All Menu')
 
@@ -6671,7 +6508,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┏══━✞✪ 𝙾𝚆𝙽𝙴𝚁 ✪✞══━┓	
+    caption: `┏══━✞✪ 𝗢𝗪𝗡𝗘𝗥 ✪✞══━┓	
 ┃•𖥔  ${prefix}self
 ┃•𖥔  ${prefix}public
 ┃•𖥔  ${prefix}join [link]
@@ -6687,7 +6524,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}creategroup [name]
 ┃•𖥔  ${prefix}block [tag/number]
 ┃•𖥔  ${prefix}unblock [tag/number]
-┃•𖥔 ◐══════✪ GROUP 	        
+┃•𖥔 ◐══════✪ 𝗚𝗥𝗢𝗨𝗣 	        
 ┃•𖥔 ${prefix}grouplink
 ┃•𖥔 ${prefix}ephemeral [option]
 ┃•𖥔 ${prefix}setgcpp [image]
@@ -6722,7 +6559,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}upvote
 ┃•𖥔 ${prefix}checkvote
 ┃•𖥔 ${prefix}delvote
-┃•𖥔 ◐══════✪ MAKER 
+┃•𖥔 ◐══════✪ 𝗟𝗢𝗚𝗢
 ┃•𖥔 ${prefix}candy
 ┃•𖥔 ${prefix}blackpinkneon
 ┃•𖥔 ${prefix}deepsea
@@ -6824,7 +6661,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}halloween
 ┃•𖥔  ${prefix}watercolor
 ┃•𖥔  ${prefix}classic
-┃•𖥔 ◐════✪ DOWNLOAD 	
+┃•𖥔 ◐════✪ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗
 ┃•𖥔 ${prefix}tiktok [url]
 ┃•𖥔 ${prefix}tiktokaudio [url]
 ┃•𖥔 ${prefix}instagram [url]
@@ -6833,7 +6670,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}ytmp3 [url|quality]
 ┃•𖥔 ${prefix}ytmp4 [url|quality]
 ┃•𖥔 ${prefix}gitclone [repo link]
-┃•𖥔 ◐══════✪ SEARCH 	
+┃•𖥔 ◐══════✪ 𝗦𝗘𝗔𝗥𝗖𝗛
 ┃•𖥔 ${prefix}play [query]
 ┃•𖥔 ${prefix}song [query]
 ┃•𖥔 ${prefix}yts [query]
@@ -6852,7 +6689,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}wikimedia [query]
 ┃•𖥔 ${prefix}ytsearch [query]
 ┃•𖥔 ${prefix}ringtone [query]
-┃•𖥔 ◐══════✪ CONVERT 
+┃•𖥔 ◐══════✪ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧
 ┃•𖥔  ${prefix}toimage [reply stick]
 ┃•𖥔  ${prefix}sticker [reply img|gif]
 ┃•𖥔  ${prefix}take [reply img|gif|stik]
@@ -6880,9 +6717,9 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}slow [reply aud]
 ┃•𖥔 ${prefix}smooth [reply aud]
 ┃•𖥔 ${prefix}squirrel [reply aud]
-┃•𖥔 ◐══════✪ IMG EFFECT 
+┃•𖥔 ◐══════✪ 𝗜𝗠𝗚 𝗘𝗙𝗙𝗘𝗖𝗧
 ┃•𖥔 ${prefix}removebg [reply img]
-┃•𖥔 ◐══════✪ RANDOM IMG 
+┃•𖥔 ◐══════✪ 𝗥𝗔𝗡𝗗𝗢𝗠 𝗜𝗠𝗚
 ┃•𖥔 ${prefix}coffee
 ┃•𖥔 ${prefix}woof
 ┃•𖥔 ${prefix}meow
@@ -6920,7 +6757,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}couplepicture
 ┃•𖥔 ${prefix}wallphone
 ┃•𖥔 ${prefix}wallml
-┃•𖥔 ◐══════✪ RANDOM VIDEO
+┃•𖥔 ◐══════✪ 𝗥𝗔𝗡𝗗𝗢𝗠 𝗩𝗜𝗗𝗘𝗢
 ┃•𖥔 ${prefix}tiktokgirl	
 ┃•𖥔 ${prefix}tiktoknukhty
 ┃•𖥔 ${prefix}tiktokpanrika
@@ -6929,7 +6766,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}tiktokghea
 ┃•𖥔 ${prefix}tiktoksantuy
 ┃•𖥔 ${prefix}tiktokbocil
-┃•𖥔 ◐══════✪ EMOTE 
+┃•𖥔 ◐══════✪ 𝗘𝗠𝗢𝗧𝗘
 ┃•𖥔 ${prefix}instagramemoji
 ┃•𖥔 ${prefix}facebookemoji
 ┃•𖥔 ${prefix}iphoneemoji
@@ -6942,7 +6779,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}googleemoji
 ┃•𖥔 ${prefix}pediaemoji
 ┃•𖥔 ${prefix}microsoftemoji
-┃•𖥔 ◐══════✪ ANIME 
+┃•𖥔 ◐══════✪ 𝗔𝗡𝗜𝗠𝗘
 ┃•𖥔 ${prefix}animeneko
 ┃•𖥔 ${prefix}waifu
 ┃•𖥔 ${prefix}animewaifu
@@ -6994,7 +6831,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}couplepp
 ┃•𖥔 ${prefix}animewall [query]
 ┃•𖥔 ${prefix}animewall2 [query]
-┃•𖥔 ◐════✪ STICKER 
+┃•𖥔 ◐════✪ 𝗦𝗧𝗜𝗖𝗞𝗘𝗥
 ┃•𖥔  ${prefix}patrick
 ┃•𖥔  ${prefix}emoji
 ┃•𖥔  ${prefix}emojimix
@@ -7006,7 +6843,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}nicholas
 ┃•𖥔  ${prefix}cartoon
 ┃•𖥔  ${prefix}stickman
-┃•𖥔 ◐════✪ ANIME STICKER 
+┃•𖥔 ◐════✪ 𝗔𝗡𝗜𝗠𝗘 𝗦𝗧𝗜𝗖𝗞𝗘𝗥
 ┃•𖥔 ${prefix}loli
 ┃•𖥔 ${prefix}bully
 ┃•𖥔 ${prefix}cuddle
@@ -7036,7 +6873,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}cringe
 ┃•𖥔 ${prefix}neko
 ┃•𖥔 ${prefix}gura
-┃•𖥔 ◐══════✪ NSFW 
+┃•𖥔 ◐══════✪ 𝗡𝗦𝗙𝗪
 ┃•𖥔 ${prefix}gifhentai
 ┃•𖥔 ${prefix}gifblowjob
 ┃•𖥔 ${prefix}hentaivideo
@@ -7072,7 +6909,7 @@ const buttonMessage = {
 ┃•𖥔 ${prefix}thights
 ┃•𖥔 ${prefix}yuri
 ┃•𖥔 ${prefix}zettai
-┃•𖥔 ◐══════✪ FUN 
+┃•𖥔 ◐══════✪ 𝗙𝗨𝗡
 ┃•𖥔  ${prefix}say [text]
 ┃•𖥔  ${prefix}define [text]
 ┃•𖥔  ${prefix}how [text
@@ -7148,7 +6985,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}fuckgirl
 ┃•𖥔  ${prefix}playgirl
 ┃•𖥔  ${prefix}quotes
-┃•𖥔 ◐════✪ SOUND 
+┃•𖥔 ◐════✪ 𝗦𝗢𝗨𝗡𝗗
 ┃•𖥔  ${prefix}sound1
 ┃•𖥔  ${prefix}sound2
 ┃•𖥔  ${prefix}sound3
@@ -7310,7 +7147,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}sound159
 ┃•𖥔  ${prefix}sound160
 ┃•𖥔  ${prefix}sound161
-┃•𖥔 ◐════✪ GAME 
+┃•𖥔 ◐════✪ 𝗚𝗔𝗠𝗘
 ┃•𖥔  ${prefix}truth
 ┃•𖥔  ${prefix}dare
 ┃•𖥔  ${prefix}tictactoe
@@ -7318,7 +7155,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}guess [option]
 ┃•𖥔  ${prefix}math [mode]
 ┃•𖥔  ${prefix}suitpvp [tag]
-┃•𖥔 ◐══✪ ANONYMOUS CHAT 
+┃•𖥔 ◐══✪ 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧
 ┃•𖥔 ${prefix}anonymous
 ┃•𖥔 ${prefix}start
 ┃•𖥔 ${prefix}next
@@ -7332,7 +7169,7 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}listmsg
 ┃•𖥔  ${prefix}getmsg
 ┃•𖥔  ${prefix}delmsg
-┃•𖥔 ◐════✪ OTHER 
+┃•𖥔 ◐════✪ 𝗢𝗧𝗛𝗘𝗥
 ┃•𖥔  ${prefix}afk
 ┃•𖥔  ${prefix}id
 ┃•𖥔  ${prefix}toqr [link]
@@ -7353,1021 +7190,8 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}donate
 ┃•𖥔  ${prefix}request
 ┃•𖥔  ${prefix}report [bug]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-      case 'ownermenu':{
-	   var unicorn = await getBuffer(picak+'Owner Menu')
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙾𝚆𝙽𝙴𝚁 ✪✞══━┓	
-┃𖥔 ֶָ֢֪  ${prefix}self
-┃𖥔 ֶָ֢֪  ${prefix}public
-┃𖥔 ֶָ֢֪  ${prefix}join [link]
-┃𖥔 ֶָ֢֪  ${prefix}leavegc
-┃𖥔 ֶָ֢֪  ${prefix}setbio
-┃𖥔 ֶָ֢֪  ${prefix}hijack
-┃𖥔 ֶָ֢֪  ${prefix}creategroup [name]
-┃𖥔 ֶָ֢֪  ${prefix}block [user]
-┃𖥔 ֶָ֢֪  ${prefix}unblock [user]
-┃𖥔 ֶָ֢֪  ${prefix}broadcast [text]
-┃𖥔 ֶָ֢֪  ${prefix}setppbot [image]
-┃𖥔 ֶָ֢֪  ${prefix}setthumb [reply img]
-┃𖥔 ֶָ֢֪  ${prefix}setexif
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'groupmenu':{
-var unicorn = await getBuffer(picak+'Group Menu')
+┗══════✪🌌✪══════┛`,
 
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙶𝚁𝙾𝚄𝙿 ✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}grouplink
-┃𖥔 ֶָ֢֪ ${prefix}ephemeral [option]
-┃𖥔 ֶָ֢֪ ${prefix}setgcpp [image]
-┃𖥔 ֶָ֢֪ ${prefix}setname [text]
-┃𖥔 ֶָ֢֪ ${prefix}setdesc [text]
-┃𖥔 ֶָ֢֪ ${prefix}group
-┃𖥔 ֶָ֢֪ ${prefix}botgroups
-┃𖥔 ֶָ֢֪ ${prefix}resetgrouplink
-┃𖥔 ֶָ֢֪ ${prefix}editinfo [option]
-┃𖥔 ֶָ֢֪ ${prefix}add [user]
-┃𖥔 ֶָ֢֪ ${prefix}menfess [number]
-┃𖥔 ֶָ֢֪ ${prefix}kick [reply/tag]
-┃𖥔 ֶָ֢֪ ${prefix}hidetag [text]
-┃𖥔 ֶָ֢֪ ${prefix}tagall [text]
-┃𖥔 ֶָ֢֪ ${prefix}autosticker [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}autostickerpc [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}leveling [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkgc [on/off] 
-┃𖥔 ֶָ֢֪ ${prefix}antilinktg [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinktt [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkytch [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkytvid [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkig [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkfb [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinktwit [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antilinkall [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antivirus [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antitoxic [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}antiwame [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}nsfw [on/off]
-┃𖥔 ֶָ֢֪ ${prefix}promote [reply/tag]
-┃𖥔 ֶָ֢֪ ${prefix}demote [reply/tag]
-┃𖥔 ֶָ֢֪ ${prefix}react [reply emoji]
-┃𖥔 ֶָ֢֪ ${prefix}getpp [reply user]
-┃𖥔 ֶָ֢֪ ${prefix}vote
-┃𖥔 ֶָ֢֪ ${prefix}devote
-┃𖥔 ֶָ֢֪ ${prefix}upvote
-┃𖥔 ֶָ֢֪ ${prefix}checkvote
-┃𖥔 ֶָ֢֪ ${prefix}delvote
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'makermenu':{
-var unicorn = await getBuffer(picak+'Maker Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙼𝙰𝙺𝙴𝚁 ✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}candy
-┃𖥔 ֶָ֢֪ ${prefix}8bit
-┃𖥔 ֶָ֢֪ ${prefix}horror
-┃𖥔 ֶָ֢֪ ${prefix}hoorror
-┃𖥔 ֶָ֢֪ ${prefix}retro
-┃𖥔 ֶָ֢֪ ${prefix}blackpinkneon
-┃𖥔 ֶָ֢֪ ${prefix}deepsea
-┃𖥔 ֶָ֢֪ ${prefix}scifi
-┃𖥔 ֶָ֢֪ ${prefix}fiction
-┃𖥔 ֶָ֢֪ ${prefix}berry
-┃𖥔 ֶָ֢֪ ${prefix}fruitjuice
-┃𖥔 ֶָ֢֪ ${prefix}biscuit
-┃𖥔 ֶָ֢֪ ${prefix}wood
-┃𖥔 ֶָ֢֪ ${prefix}chocolate
-┃𖥔 ֶָ֢֪ ${prefix}matrix
-┃𖥔 ֶָ֢֪ ${prefix}blood
-┃𖥔 ֶָ֢֪ ${prefix}halloween
-┃𖥔 ֶָ֢֪ ${prefix}wicker
-┃𖥔 ֶָ֢֪ ${prefix}darkgold
-┃𖥔 ֶָ֢֪ ${prefix}firework
-┃𖥔 ֶָ֢֪ ${prefix}skeleton
-┃𖥔 ֶָ֢֪ ${prefix}sand
-┃𖥔 ֶָ֢֪ ${prefix}glue
-┃𖥔 ֶָ֢֪ ${prefix}leaves
-┃𖥔 ֶָ֢֪ ${prefix}magma
-┃𖥔 ֶָ֢֪ ${prefix}lava
-┃𖥔 ֶָ֢֪ ${prefix}rockart
-┃𖥔 ֶָ֢֪ ${prefix}bloodglas
-┃𖥔 ֶָ֢֪ ${prefix}underwater
-┃𖥔 ֶָ֢֪ ${prefix}textmaker
-┃𖥔 ֶָ֢֪ ${prefix}honey
-┃𖥔 ֶָ֢֪ ${prefix}ice
-┃𖥔 ֶָ֢֪ ${prefix}watercolor
-┃𖥔 ֶָ֢֪ ${prefix}multicolor
-┃𖥔 ֶָ֢֪ ${prefix}snow
-┃𖥔 ֶָ֢֪ ${prefix}harrypot
-┃𖥔 ֶָ֢֪ ${prefix}harrypotter
-┃𖥔 ֶָ֢֪ ${prefix}brokenglass
-┃𖥔 ֶָ֢֪ ${prefix}waterpipe
-┃𖥔 ֶָ֢֪ ${prefix}spooky
-┃𖥔 ֶָ֢֪ ${prefix}circuit
-┃𖥔 ֶָ֢֪ ${prefix}metallic
-┃𖥔 ֶָ֢֪ ${prefix}demon
-┃𖥔 ֶָ֢֪ ${prefix}sparklechristmas
-┃𖥔 ֶָ֢֪ ${prefix}christmas
-┃𖥔 ֶָ֢֪ ${prefix}3dchristmas
-┃𖥔 ֶָ֢֪ ${prefix}3dbox
-┃𖥔 ֶָ֢֪ ${prefix}waterdrop
-┃𖥔 ֶָ֢֪ ${prefix}lion2
-┃𖥔 ֶָ֢֪ ${prefix}papercut
-┃𖥔 ֶָ֢֪ ${prefix}transformer
-┃𖥔 ֶָ֢֪ ${prefix}neondevil
-┃𖥔 ֶָ֢֪ ${prefix}3davengers
-┃𖥔 ֶָ֢֪ ${prefix}3dstone
-┃𖥔 ֶָ֢֪ ${prefix}3dstone2
-┃𖥔 ֶָ֢֪ ${prefix}summertime
-┃𖥔 ֶָ֢֪ ${prefix}thunder
-┃𖥔 ֶָ֢֪ ${prefix}window
-┃𖥔 ֶָ֢֪ ${prefix}graffiti
-┃𖥔 ֶָ֢֪ ${prefix}graffitibike
-┃𖥔 ֶָ֢֪ ${prefix}pornhub
-┃𖥔 ֶָ֢֪ ${prefix}glitch
-┃𖥔 ֶָ֢֪ ${prefix}blackpinkart
-┃𖥔 ֶָ֢֪ ${prefix}glitch2
-┃𖥔 ֶָ֢֪ ${prefix}glitch3
-┃𖥔 ֶָ֢֪ ${prefix}3dspace
-┃𖥔 ֶָ֢֪ ${prefix}lion
-┃𖥔 ֶָ֢֪ ${prefix}3dneon
-┃𖥔 ֶָ֢֪ ${prefix}greenneon
-┃𖥔 ֶָ֢֪ ${prefix}bokeh
-┃𖥔 ֶָ֢֪ ${prefix}holographic
-┃𖥔 ֶָ֢֪ ${prefix}bear
-┃𖥔 ֶָ֢֪ ${prefix}wolf
-┃𖥔 ֶָ֢֪ ${prefix}joker
-┃𖥔 ֶָ֢֪ ${prefix}dropwater
-┃𖥔 ֶָ֢֪ ${prefix}dropwater2
-┃𖥔 ֶָ֢֪ ${prefix}thewall
-┃𖥔 ֶָ֢֪ ${prefix}neonlight
-┃𖥔 ֶָ֢֪ ${prefix}natural
-┃𖥔 ֶָ֢֪ ${prefix}carbon
-┃𖥔 ֶָ֢֪ ${prefix}pencil
-┃𖥔 ֶָ֢֪ ${prefix}blackpink2
-┃𖥔 ֶָ֢֪ ${prefix}neon
-┃𖥔 ֶָ֢֪ ${prefix}neonlight2
-┃𖥔 ֶָ֢֪ ${prefix}toxic
-┃𖥔 ֶָ֢֪ ${prefix}strawberry
-┃𖥔 ֶָ֢֪ ${prefix}discovery
-┃𖥔 ֶָ֢֪ ${prefix}1917
-┃𖥔 ֶָ֢֪  ${prefix}sci_fi
-┃𖥔 ֶָ֢֪  ${prefix}ancient
-┃𖥔 ֶָ֢֪  ${prefix}fabric
-┃𖥔 ֶָ֢֪  ${prefix}hoorror
-┃𖥔 ֶָ֢֪  ${prefix}whitebear
-┃𖥔 ֶָ֢֪  ${prefix}juice
-┃𖥔 ֶָ֢֪  ${prefix}batman
-┃𖥔 ֶָ֢֪  ${prefix}multicolor
-┃𖥔 ֶָ֢֪  ${prefix}wonderful
-┃𖥔 ֶָ֢֪  ${prefix}sketch
-┃𖥔 ֶָ֢֪  ${prefix}marvel
-┃𖥔 ֶָ֢֪  ${prefix}foggy
-┃𖥔 ֶָ֢֪  ${prefix}writing
-┃𖥔 ֶָ֢֪  ${prefix}halloweenfire
-┃𖥔 ֶָ֢֪  ${prefix}halloween
-┃𖥔 ֶָ֢֪  ${prefix}watercolor
-┃𖥔 ֶָ֢֪  ${prefix}classic
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'downloadmenu':{
-var unicorn = await getBuffer(picak+'Download Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}tiktok [url]
-┃𖥔 ֶָ֢֪ ${prefix}tiktokaudio [url]
-┃𖥔 ֶָ֢֪ ${prefix}instagram [url]
-┃𖥔 ֶָ֢֪ ${prefix}spotify [url]
-┃𖥔 ֶָ֢֪ ${prefix}mediafire [url]
-┃𖥔 ֶָ֢֪ ${prefix}ytmp3 [url|quality]
-┃𖥔 ֶָ֢֪ ${prefix}ytmp4 [url|quality]
-┃𖥔 ֶָ֢֪ ${prefix}gitclone [repo link]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'searchmenu':{
-var unicorn = await getBuffer(picak+'Search Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝚂𝙴𝙰𝚁𝙲𝙷 ✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}play [query]
-┃𖥔 ֶָ֢֪ ${prefix}song [query]
-┃𖥔 ֶָ֢֪ ${prefix}yts [query]
-┃𖥔 ֶָ֢֪ ${prefix}lyrics [query]
-┃𖥔 ֶָ֢֪ ${prefix}google [query]
-┃𖥔 ֶָ֢֪ ${prefix}google [query]
-┃𖥔 ֶָ֢֪ ${prefix}anime [query]
-┃𖥔 ֶָ֢֪ ${prefix}pinterest [query]
-┃𖥔 ֶָ֢֪ ${prefix}image [query]
-┃𖥔 ֶָ֢֪ ${prefix}wallpaper [query]
-┃𖥔 ֶָ֢֪ ${prefix}searchno [number]
-┃𖥔 ֶָ֢֪ ${prefix}horoscope [query]
-┃𖥔 ֶָ֢֪ ${prefix}imdb [movie name]
-┃𖥔 ֶָ֢֪ ${prefix}weather [loc name]
-┃𖥔 ֶָ֢֪ ${prefix}genshin [char name]
-┃𖥔 ֶָ֢֪ ${prefix}wikimedia [query]
-┃𖥔 ֶָ֢֪ ${prefix}ytsearch [query]
-┃𖥔 ֶָ֢֪ ${prefix}ringtone [query]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'convertmenu':{
-var unicorn = await getBuffer(picak+'Convert Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃 ✪✞══━┓	
-┃𖥔 ֶָ֢֪  ${prefix}toimage [reply stick]
-┃𖥔 ֶָ֢֪  ${prefix}sticker [reply img|gif]
-┃𖥔 ֶָ֢֪  ${prefix}take [reply img|gif|stik]
-┃𖥔 ֶָ֢֪  ${prefix}smeme [reply img]
-┃𖥔 ֶָ֢֪  ${prefix}emoji [emoji]
-┃𖥔 ֶָ֢֪  ${prefix}tovideo [reply img]
-┃𖥔 ֶָ֢֪  ${prefix}togif [reply stick]
-┃𖥔 ֶָ֢֪  ${prefix}tovn [reply aud]
-┃𖥔 ֶָ֢֪  ${prefix}tomp3 [reply vn]
-┃𖥔 ֶָ֢֪  ${prefix}toaudio [reply vid]
-┃𖥔 ֶָ֢֪  ${prefix}ebinary [reply txt]
-┃𖥔 ֶָ֢֪  ${prefix}dbinary [reply txt]
-┃𖥔 ֶָ֢֪  ${prefix}tinyurl [link]
-┃𖥔 ֶָ֢֪  ${prefix}styletext [text]
-┃𖥔 ֶָ֢֪ ${prefix}volume [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}bass [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}blown [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}deep [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}earrape [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}fast [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}fat [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}nightcore [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}reverse [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}robot [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}slow [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}smooth [reply aud]
-┃𖥔 ֶָ֢֪ ${prefix}squirrel [reply aud]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'randomimagemenu':{
-var unicorn = await getBuffer(picak+'Random Image Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝚁𝙰𝙽𝙳𝙼 𝙸𝙼𝙶 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪ ${prefix}coffee
-┃𖥔 ֶָ֢֪ ${prefix}woof
-┃𖥔 ֶָ֢֪ ${prefix}meow
-┃𖥔 ֶָ֢֪ ${prefix}lizard
-┃𖥔 ֶָ֢֪ ${prefix}chinese
-┃𖥔 ֶָ֢֪ ${prefix}japanese
-┃𖥔 ֶָ֢֪ ${prefix}korean
-┃𖥔 ֶָ֢֪ ${prefix}indo
-┃𖥔 ֶָ֢֪ ${prefix}thai
-┃𖥔 ֶָ֢֪ ${prefix}vietnamese
-┃𖥔 ֶָ֢֪ ${prefix}malay
-┃𖥔 ֶָ֢֪ ${prefix}hijab
-┃𖥔 ֶָ֢֪ ${prefix}randomgirl
-┃𖥔 ֶָ֢֪ ${prefix}randomboy
-┃𖥔 ֶָ֢֪ ${prefix}aesthetic
-┃𖥔 ֶָ֢֪ ${prefix}antiwork
-┃𖥔 ֶָ֢֪ ${prefix}cosplay
-┃𖥔 ֶָ֢֪ ${prefix}car
-┃𖥔 ֶָ֢֪ ${prefix}bike
-┃𖥔 ֶָ֢֪ ${prefix}doggo
-┃𖥔 ֶָ֢֪ ${prefix}cat
-┃𖥔 ֶָ֢֪ ${prefix}notnot
-┃𖥔 ֶָ֢֪ ${prefix}kayes
-┃𖥔 ֶָ֢֪ ${prefix}justina
-┃𖥔 ֶָ֢֪ ${prefix}ryujin
-┃𖥔 ֶָ֢֪ ${prefix}boneka
-┃𖥔 ֶָ֢֪ ${prefix}rose
-┃𖥔 ֶָ֢֪ ${prefix}kpop
-┃𖥔 ֶָ֢֪ ${prefix}blackpink
-┃𖥔 ֶָ֢֪ ${prefix}ulzzangboy
-┃𖥔 ֶָ֢֪ ${prefix}ulzzanggirl
-┃𖥔 ֶָ֢֪ ${prefix}pubg
-┃𖥔 ֶָ֢֪ ${prefix}hacking
-┃𖥔 ֶָ֢֪ ${prefix}profilepicture
-┃𖥔 ֶָ֢֪ ${prefix}couplepicture
-┃𖥔 ֶָ֢֪ ${prefix}wallphone
-┃𖥔 ֶָ֢֪ ${prefix}wallml
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'randomvideomenu':{
-var unicorn = await getBuffer(picak+'Random Video Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝚁𝙰𝙽𝙳𝙾𝙼 𝚅𝙸𝙳 ✪✞══━┓
-┃𖥔 ֶָ֢֪ ${prefix}tiktokgirl	
-┃𖥔 ֶָ֢֪ ${prefix}tiktoknukhty
-┃𖥔 ֶָ֢֪ ${prefix}tiktokpanrika
-┃𖥔 ֶָ֢֪ ${prefix}tiktokkayes
-┃𖥔 ֶָ֢֪ ${prefix}tiktoknotnot
-┃𖥔 ֶָ֢֪ ${prefix}tiktokghea
-┃𖥔 ֶָ֢֪ ${prefix}tiktoksantuy
-┃𖥔 ֶָ֢֪ ${prefix}tiktokbocil
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-           case 'emotemenu':{
-var unicorn = await getBuffer(picak+'Emote Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙴𝙼𝙾𝚃𝙴 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪ ${prefix}instagramemoji
-┃𖥔 ֶָ֢֪ ${prefix}facebookemoji
-┃𖥔 ֶָ֢֪ ${prefix}iphoneemoji
-┃𖥔 ֶָ֢֪ ${prefix}samsungemoji
-┃𖥔 ֶָ֢֪ ${prefix}joyemoji
-┃𖥔 ֶָ֢֪ ${prefix}skypeemoji
-┃𖥔 ֶָ֢֪ ${prefix}twitteremoji
-┃𖥔 ֶָ֢֪ ${prefix}whatsappemoji
-┃𖥔 ֶָ֢֪ ${prefix}microsoftemoji
-┃𖥔 ֶָ֢֪ ${prefix}googleemoji
-┃𖥔 ֶָ֢֪ ${prefix}pediaemoji
-┃𖥔 ֶָ֢֪ ${prefix}microsoftemoji
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'imageeffectmenu':{
-var unicorn = await getBuffer(picak+'Image Effect Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏═════✪ IMG EFFECT 	
-┃𖥔 ֶָ֢֪ ${prefix}removebg [reply img]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'animemenu':{
-var unicorn = await getBuffer(picak+'Anime Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙰𝙽𝙸𝙼𝙴 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪ ${prefix}animeneko
-┃𖥔 ֶָ֢֪ ${prefix}waifu
-┃𖥔 ֶָ֢֪ ${prefix}shinobu
-┃𖥔 ֶָ֢֪ ${prefix}animeawoo
-┃𖥔 ֶָ֢֪ ${prefix}animewaifu
-┃𖥔 ֶָ֢֪ ${prefix}foxgirl
-┃𖥔 ֶָ֢֪ ${prefix}animenom
-┃𖥔 ֶָ֢֪ ${prefix}goose
-┃𖥔 ֶָ֢֪ ${prefix}8ball
-┃𖥔 ֶָ֢֪ ${prefix}avatar
-┃𖥔 ֶָ֢֪ ${prefix}tickle
-┃𖥔 ֶָ֢֪ ${prefix}gecg
-┃𖥔 ֶָ֢֪ ${prefix}feed
-┃𖥔 ֶָ֢֪ ${prefix}husbu
-┃𖥔 ֶָ֢֪ ${prefix}neko2
-┃𖥔 ֶָ֢֪ ${prefix}randomanime
-┃𖥔 ֶָ֢֪ ${prefix}shota
-┃𖥔 ֶָ֢֪ ${prefix}waifu2
-┃𖥔 ֶָ֢֪ ${prefix}animeslap
-┃𖥔 ֶָ֢֪ ${prefix}animepat
-┃𖥔 ֶָ֢֪ ${prefix}animeneko
-┃𖥔 ֶָ֢֪ ${prefix}animekiss
-┃𖥔 ֶָ֢֪ ${prefix}animewlp
-┃𖥔 ֶָ֢֪ ${prefix}animecuddle
-┃𖥔 ֶָ֢֪ ${prefix}animecry
-┃𖥔 ֶָ֢֪ ${prefix}animekill
-┃𖥔 ֶָ֢֪ ${prefix}animelick
-┃𖥔 ֶָ֢֪ ${prefix}animebite
-┃𖥔 ֶָ֢֪ ${prefix}animeyeet
-┃𖥔 ֶָ֢֪ ${prefix}animebully
-┃𖥔 ֶָ֢֪ ${prefix}animebonk
-┃𖥔 ֶָ֢֪ ${prefix}animewink
-┃𖥔 ֶָ֢֪ ${prefix}animepoke
-┃𖥔 ֶָ֢֪ ${prefix}animesmile
-┃𖥔 ֶָ֢֪ ${prefix}animewave
-┃𖥔 ֶָ֢֪ ${prefix}animeawoo
-┃𖥔 ֶָ֢֪ ${prefix}animeblush
-┃𖥔 ֶָ֢֪ ${prefix}animesmug
-┃𖥔 ֶָ֢֪ ${prefix}animeglomp
-┃𖥔 ֶָ֢֪ ${prefix}animehappy
-┃𖥔 ֶָ֢֪ ${prefix}animedance
-┃𖥔 ֶָ֢֪ ${prefix}animecringe
-┃𖥔 ֶָ֢֪ ${prefix}animehighfive
-┃𖥔 ֶָ֢֪ ${prefix}animehandhold
-┃𖥔 ֶָ֢֪ ${prefix}animemegumin
-┃𖥔 ֶָ֢֪ ${prefix}animemegumin
-┃𖥔 ֶָ֢֪ ${prefix}animesmug
-┃𖥔 ֶָ֢֪ ${prefix}loli-waifu
-┃𖥔 ֶָ֢֪ ${prefix}couplepp
-┃𖥔 ֶָ֢֪ ${prefix}animewall [query]
-┃𖥔 ֶָ֢֪ ${prefix}animewall2 [query]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'stickermenu':{
-var unicorn = await getBuffer(picak+'Sticker Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪  ${prefix}patrick
-┃𖥔 ֶָ֢֪  ${prefix}emoji
-┃𖥔 ֶָ֢֪  ${prefix}emojimix
-┃𖥔 ֶָ֢֪  ${prefix}doge
-┃𖥔 ֶָ֢֪  ${prefix}lovesticker
-┃𖥔 ֶָ֢֪  ${prefix}animestick
-┃𖥔 ֶָ֢֪  ${prefix}spongebob
-┃𖥔 ֶָ֢֪  ${prefix}gojosatoru
-┃𖥔 ֶָ֢֪  ${prefix}nicholas
-┃𖥔 ֶָ֢֪  ${prefix}cartoon
-┃𖥔 ֶָ֢֪  ${prefix}stickman
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'animestickermenu':{
-var unicorn = await getBuffer(picak+'Anime Sticker Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙰𝙽𝙸𝙼𝙴 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 ✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}loli
-┃𖥔 ֶָ֢֪ ${prefix}bully
-┃𖥔 ֶָ֢֪ ${prefix}cuddle
-┃𖥔 ֶָ֢֪ ${prefix}cry
-┃𖥔 ֶָ֢֪ ${prefix}hug
-┃𖥔 ֶָ֢֪ ${prefix}awoo
-┃𖥔 ֶָ֢֪ ${prefix}kiss
-┃𖥔 ֶָ֢֪ ${prefix}lick
-┃𖥔 ֶָ֢֪ ${prefix}pat
-┃𖥔 ֶָ֢֪ ${prefix}smug
-┃𖥔 ֶָ֢֪ ${prefix}bonk
-┃𖥔 ֶָ֢֪ ${prefix}yeet
-┃𖥔 ֶָ֢֪ ${prefix}blush
-┃𖥔 ֶָ֢֪ ${prefix}smile
-┃𖥔 ֶָ֢֪ ${prefix}wave
-┃𖥔 ֶָ֢֪ ${prefix}highfive
-┃𖥔 ֶָ֢֪ ${prefix}handhold
-┃𖥔 ֶָ֢֪ ${prefix}nom
-┃𖥔 ֶָ֢֪ ${prefix}glomp
-┃𖥔 ֶָ֢֪ ${prefix}bite
-┃𖥔 ֶָ֢֪ ${prefix}slap
-┃𖥔 ֶָ֢֪ ${prefix}kill
-┃𖥔 ֶָ֢֪ ${prefix}happy
-┃𖥔 ֶָ֢֪ ${prefix}wink
-┃𖥔 ֶָ֢֪ ${prefix}poke
-┃𖥔 ֶָ֢֪ ${prefix}dance
-┃𖥔 ֶָ֢֪ ${prefix}cringe
-┃𖥔 ֶָ֢֪ ${prefix}neko
-┃𖥔 ֶָ֢֪ ${prefix}gura
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break 
-case 'nsfwmenu':{
-var unicorn = await getBuffer(picak+'Nsfw Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙽𝚂𝙵𝚆 ✪✞══━┓	
-┃𖥔 ֶָ֢֪ ${prefix}gifhentai
-┃𖥔 ֶָ֢֪ ${prefix}gifblowjob
-┃𖥔 ֶָ֢֪ ${prefix}hentaivideo
-┃𖥔 ֶָ֢֪ ${prefix}hneko
-┃𖥔 ֶָ֢֪ ${prefix}nwaifu
-┃𖥔 ֶָ֢֪ ${prefix}animespank
-┃𖥔 ֶָ֢֪ ${prefix}trap
-┃𖥔 ֶָ֢֪ ${prefix}gasm
-┃𖥔 ֶָ֢֪ ${prefix}ahegao
-┃𖥔 ֶָ֢֪ ${prefix}ass
-┃𖥔 ֶָ֢֪ ${prefix}bdsm
-┃𖥔 ֶָ֢֪ ${prefix}blowjob
-┃𖥔 ֶָ֢֪ ${prefix}cuckold
-┃𖥔 ֶָ֢֪ ${prefix}cum
-┃𖥔 ֶָ֢֪ ${prefix}milf
-┃𖥔 ֶָ֢֪ ${prefix}eba
-┃𖥔 ֶָ֢֪ ${prefix}ero
-┃𖥔 ֶָ֢֪ ${prefix}femdom
-┃𖥔 ֶָ֢֪ ${prefix}foot
-┃𖥔 ֶָ֢֪ ${prefix}gangbang
-┃𖥔 ֶָ֢֪ ${prefix}glasses
-┃𖥔 ֶָ֢֪ ${prefix}hentai
-┃𖥔 ֶָ֢֪ ${prefix}jahy
-┃𖥔 ֶָ֢֪ ${prefix}manga
-┃𖥔 ֶָ֢֪ ${prefix}masturbation
-┃𖥔 ֶָ֢֪ ${prefix}neko-hentai
-┃𖥔 ֶָ֢֪ ${prefix}neko-hentai2
-┃𖥔 ֶָ֢֪ ${prefix}nsfwloli
-┃𖥔 ֶָ֢֪ ${prefix}orgy
-┃𖥔 ֶָ֢֪ ${prefix}panties
-┃𖥔 ֶָ֢֪ ${prefix}pussy
-┃𖥔 ֶָ֢֪ ${prefix}tentacles
-┃𖥔 ֶָ֢֪ ${prefix}thights
-┃𖥔 ֶָ֢֪ ${prefix}yuri
-┃𖥔 ֶָ֢֪ ${prefix}zettai
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'funmenu':{
-var unicorn = await getBuffer(picak+'Fun Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙵𝚄𝙽 ✪✞══━┓ 
-┃𖥔 ֶָ֢֪  ${prefix}say [text]	
-┃𖥔 ֶָ֢֪  ${prefix}define [text]
-┃𖥔 ֶָ֢֪  ${prefix}how [text]
-┃𖥔 ֶָ֢֪  ${prefix}when [text]
-┃𖥔 ֶָ֢֪  ${prefix}where [text]
-┃𖥔 ֶָ֢֪  ${prefix}is [text]
-┃𖥔 ֶָ֢֪  ${prefix}what [text]
-┃𖥔 ֶָ֢֪  ${prefix}can [text]
-┃𖥔 ֶָ֢֪  ${prefix}rate [text]
-┃𖥔 ֶָ֢֪  ${prefix}coolcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}stupidcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}waifucheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}evilcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}dogcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}hotcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}smartcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}uncleancheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}greatcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}beautifulcheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}awesomecheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}prettycheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}lesbiancheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}gaycheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}cutecheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}uglycheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}hornycheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}charactercheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}lovelycheck [tag]
-┃𖥔 ֶָ֢֪  ${prefix}couple
-┃𖥔 ֶָ֢֪  ${prefix}soulmate
-┃𖥔 ֶָ֢֪  ${prefix}hot
-┃𖥔 ֶָ֢֪  ${prefix}sexy
-┃𖥔 ֶָ֢֪  ${prefix}kind
-┃𖥔 ֶָ֢֪  ${prefix}idiot
-┃𖥔 ֶָ֢֪  ${prefix}handsome
-┃𖥔 ֶָ֢֪  ${prefix}beautiful
-┃𖥔 ֶָ֢֪  ${prefix}cute
-┃𖥔 ֶָ֢֪  ${prefix}pretty
-┃𖥔 ֶָ֢֪  ${prefix}lesbian
-┃𖥔 ֶָ֢֪  ${prefix}noob
-┃𖥔 ֶָ֢֪  ${prefix}bastard
-┃𖥔 ֶָ֢֪  ${prefix}foolish
-┃𖥔 ֶָ֢֪  ${prefix}nerd
-┃𖥔 ֶָ֢֪  ${prefix}asshole
-┃𖥔 ֶָ֢֪  ${prefix}gay
-┃𖥔 ֶָ֢֪  ${prefix}smart
-┃𖥔 ֶָ֢֪  ${prefix}stubble
-┃𖥔 ֶָ֢֪  ${prefix}dog
-┃𖥔 ֶָ֢֪  ${prefix}horny
-┃𖥔 ֶָ֢֪  ${prefix}cunt
-┃𖥔 ֶָ֢֪  ${prefix}wibu
-┃𖥔 ֶָ֢֪  ${prefix}noobra
-┃𖥔 ֶָ֢֪  ${prefix}nibba
-┃𖥔 ֶָ֢֪  ${prefix}nibbi
-┃𖥔 ֶָ֢֪  ${prefix}comrade
-┃𖥔 ֶָ֢֪  ${prefix}mumu
-┃𖥔 ֶָ֢֪  ${prefix}rascal
-┃𖥔 ֶָ֢֪  ${prefix}scumbag
-┃𖥔 ֶָ֢֪  ${prefix}nuts
-┃𖥔 ֶָ֢֪  ${prefix}fagot
-┃𖥔 ֶָ֢֪  ${prefix}scoundrel
-┃𖥔 ֶָ֢֪  ${prefix}ditch
-┃𖥔 ֶָ֢֪  ${prefix}dope
-┃𖥔 ֶָ֢֪  ${prefix}gucci
-┃𖥔 ֶָ֢֪  ${prefix}lit
-┃𖥔 ֶָ֢֪  ${prefix}dumbass
-┃𖥔 ֶָ֢֪  ${prefix}crackhead
-┃𖥔 ֶָ֢֪  ${prefix}mf
-┃𖥔 ֶָ֢֪  ${prefix}motherfucker
-┃𖥔 ֶָ֢֪  ${prefix}sucker
-┃𖥔 ֶָ֢֪  ${prefix}fuckboy
-┃𖥔 ֶָ֢֪  ${prefix}playboy
-┃𖥔 ֶָ֢֪  ${prefix}fuckgirl
-┃𖥔 ֶָ֢֪  ${prefix}playgirl
-┃𖥔 ֶָ֢֪  ${prefix}quotes
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'soundmenu':{
-var unicorn = await getBuffer(picak+'Sound Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝚂𝙾𝚄𝙽𝙳 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪  ${prefix}sound1
-┃𖥔 ֶָ֢֪  ${prefix}sound2
-┃𖥔 ֶָ֢֪  ${prefix}sound3
-┃𖥔 ֶָ֢֪  ${prefix}sound4
-┃𖥔 ֶָ֢֪  ${prefix}sound5
-┃𖥔 ֶָ֢֪  ${prefix}sound6
-┃𖥔 ֶָ֢֪  ${prefix}sound7
-┃𖥔 ֶָ֢֪  ${prefix}sound8
-┃𖥔 ֶָ֢֪  ${prefix}sound9
-┃𖥔 ֶָ֢֪  ${prefix}sound10
-┃𖥔 ֶָ֢֪  ${prefix}sound11
-┃𖥔 ֶָ֢֪  ${prefix}sound12
-┃𖥔 ֶָ֢֪  ${prefix}sound13
-┃𖥔 ֶָ֢֪  ${prefix}sound14
-┃𖥔 ֶָ֢֪  ${prefix}sound15
-┃𖥔 ֶָ֢֪  ${prefix}sound16
-┃𖥔 ֶָ֢֪  ${prefix}sound17
-┃𖥔 ֶָ֢֪  ${prefix}sound18
-┃𖥔 ֶָ֢֪  ${prefix}sound19
-┃𖥔 ֶָ֢֪  ${prefix}sound20
-┃𖥔 ֶָ֢֪  ${prefix}sound21
-┃𖥔 ֶָ֢֪  ${prefix}sound22
-┃𖥔 ֶָ֢֪  ${prefix}sound23
-┃𖥔 ֶָ֢֪  ${prefix}sound24
-┃𖥔 ֶָ֢֪  ${prefix}sound25
-┃𖥔 ֶָ֢֪  ${prefix}sound26
-┃𖥔 ֶָ֢֪  ${prefix}sound27
-┃𖥔 ֶָ֢֪  ${prefix}sound28
-┃𖥔 ֶָ֢֪  ${prefix}sound29
-┃𖥔 ֶָ֢֪  ${prefix}sound30
-┃𖥔 ֶָ֢֪  ${prefix}sound31
-┃𖥔 ֶָ֢֪  ${prefix}sound32
-┃𖥔 ֶָ֢֪  ${prefix}sound33
-┃𖥔 ֶָ֢֪  ${prefix}sound34
-┃𖥔 ֶָ֢֪  ${prefix}sound35
-┃𖥔 ֶָ֢֪  ${prefix}sound36
-┃𖥔 ֶָ֢֪  ${prefix}sound37
-┃𖥔 ֶָ֢֪  ${prefix}sound38
-┃𖥔 ֶָ֢֪  ${prefix}sound39
-┃𖥔 ֶָ֢֪  ${prefix}sound40
-┃𖥔 ֶָ֢֪  ${prefix}sound41
-┃𖥔 ֶָ֢֪  ${prefix}sound42
-┃𖥔 ֶָ֢֪  ${prefix}sound43
-┃𖥔 ֶָ֢֪  ${prefix}sound44
-┃𖥔 ֶָ֢֪  ${prefix}sound45
-┃𖥔 ֶָ֢֪  ${prefix}sound46
-┃𖥔 ֶָ֢֪  ${prefix}sound47
-┃𖥔 ֶָ֢֪  ${prefix}sound48
-┃𖥔 ֶָ֢֪  ${prefix}sound49
-┃𖥔 ֶָ֢֪  ${prefix}sound50
-┃𖥔 ֶָ֢֪  ${prefix}sound51
-┃𖥔 ֶָ֢֪  ${prefix}sound52
-┃𖥔 ֶָ֢֪  ${prefix}sound53
-┃𖥔 ֶָ֢֪  ${prefix}sound54
-┃𖥔 ֶָ֢֪  ${prefix}sound55
-┃𖥔 ֶָ֢֪  ${prefix}sound56
-┃𖥔 ֶָ֢֪  ${prefix}sound57
-┃𖥔 ֶָ֢֪  ${prefix}sound58
-┃𖥔 ֶָ֢֪  ${prefix}sound59
-┃𖥔 ֶָ֢֪  ${prefix}sound60
-┃𖥔 ֶָ֢֪  ${prefix}sound61
-┃𖥔 ֶָ֢֪  ${prefix}sound62
-┃𖥔 ֶָ֢֪  ${prefix}sound63
-┃𖥔 ֶָ֢֪  ${prefix}sound64
-┃𖥔 ֶָ֢֪  ${prefix}sound65
-┃𖥔 ֶָ֢֪  ${prefix}sound66
-┃𖥔 ֶָ֢֪  ${prefix}sound67
-┃𖥔 ֶָ֢֪  ${prefix}sound68
-┃𖥔 ֶָ֢֪  ${prefix}sound69
-┃𖥔 ֶָ֢֪  ${prefix}sound70
-┃𖥔 ֶָ֢֪  ${prefix}sound71
-┃𖥔 ֶָ֢֪  ${prefix}sound72
-┃𖥔 ֶָ֢֪  ${prefix}sound73
-┃𖥔 ֶָ֢֪  ${prefix}sound74
-┃𖥔 ֶָ֢֪  ${prefix}sound75
-┃𖥔 ֶָ֢֪  ${prefix}sound76
-┃𖥔 ֶָ֢֪  ${prefix}sound77
-┃𖥔 ֶָ֢֪  ${prefix}sound78
-┃𖥔 ֶָ֢֪  ${prefix}sound79
-┃𖥔 ֶָ֢֪  ${prefix}sound80
-┃𖥔 ֶָ֢֪  ${prefix}sound81
-┃𖥔 ֶָ֢֪  ${prefix}sound82
-┃𖥔 ֶָ֢֪  ${prefix}sound83
-┃𖥔 ֶָ֢֪  ${prefix}sound84
-┃𖥔 ֶָ֢֪  ${prefix}sound85
-┃𖥔 ֶָ֢֪  ${prefix}sound86
-┃𖥔 ֶָ֢֪  ${prefix}sound87
-┃𖥔 ֶָ֢֪  ${prefix}sound88
-┃𖥔 ֶָ֢֪  ${prefix}sound89
-┃𖥔 ֶָ֢֪  ${prefix}sound90
-┃𖥔 ֶָ֢֪  ${prefix}sound91
-┃𖥔 ֶָ֢֪  ${prefix}sound92
-┃𖥔 ֶָ֢֪  ${prefix}sound93
-┃𖥔 ֶָ֢֪  ${prefix}sound94
-┃𖥔 ֶָ֢֪  ${prefix}sound95
-┃𖥔 ֶָ֢֪  ${prefix}sound96
-┃𖥔 ֶָ֢֪  ${prefix}sound97
-┃𖥔 ֶָ֢֪  ${prefix}sound98
-┃𖥔 ֶָ֢֪  ${prefix}sound99
-┃𖥔 ֶָ֢֪  ${prefix}sound100
-┃𖥔 ֶָ֢֪  ${prefix}sound101
-┃𖥔 ֶָ֢֪  ${prefix}sound102
-┃𖥔 ֶָ֢֪  ${prefix}sound103
-┃𖥔 ֶָ֢֪  ${prefix}sound104
-┃𖥔 ֶָ֢֪  ${prefix}sound105
-┃𖥔 ֶָ֢֪  ${prefix}sound106
-┃𖥔 ֶָ֢֪  ${prefix}sound107
-┃𖥔 ֶָ֢֪  ${prefix}sound108
-┃𖥔 ֶָ֢֪  ${prefix}sound109
-┃𖥔 ֶָ֢֪  ${prefix}sound110
-┃𖥔 ֶָ֢֪  ${prefix}sound111
-┃𖥔 ֶָ֢֪  ${prefix}sound112
-┃𖥔 ֶָ֢֪  ${prefix}sound113
-┃𖥔 ֶָ֢֪  ${prefix}sound114
-┃𖥔 ֶָ֢֪  ${prefix}sound115
-┃𖥔 ֶָ֢֪  ${prefix}sound116
-┃𖥔 ֶָ֢֪  ${prefix}sound117
-┃𖥔 ֶָ֢֪  ${prefix}sound118
-┃𖥔 ֶָ֢֪  ${prefix}sound119
-┃𖥔 ֶָ֢֪  ${prefix}sound120
-┃𖥔 ֶָ֢֪  ${prefix}sound121
-┃𖥔 ֶָ֢֪  ${prefix}sound122
-┃𖥔 ֶָ֢֪  ${prefix}sound123
-┃𖥔 ֶָ֢֪  ${prefix}sound124
-┃𖥔 ֶָ֢֪  ${prefix}sound125
-┃𖥔 ֶָ֢֪  ${prefix}sound126
-┃𖥔 ֶָ֢֪  ${prefix}sound127
-┃𖥔 ֶָ֢֪  ${prefix}sound128
-┃𖥔 ֶָ֢֪  ${prefix}sound129
-┃𖥔 ֶָ֢֪  ${prefix}sound130
-┃𖥔 ֶָ֢֪  ${prefix}sound131
-┃𖥔 ֶָ֢֪  ${prefix}sound132
-┃𖥔 ֶָ֢֪  ${prefix}sound133
-┃𖥔 ֶָ֢֪  ${prefix}sound134
-┃𖥔 ֶָ֢֪  ${prefix}sound135
-┃𖥔 ֶָ֢֪  ${prefix}sound136
-┃𖥔 ֶָ֢֪  ${prefix}sound137
-┃𖥔 ֶָ֢֪  ${prefix}sound138
-┃𖥔 ֶָ֢֪  ${prefix}sound139
-┃𖥔 ֶָ֢֪  ${prefix}sound140
-┃𖥔 ֶָ֢֪  ${prefix}sound141
-┃𖥔 ֶָ֢֪  ${prefix}sound142
-┃𖥔 ֶָ֢֪  ${prefix}sound143
-┃𖥔 ֶָ֢֪  ${prefix}sound144
-┃𖥔 ֶָ֢֪  ${prefix}sound145
-┃𖥔 ֶָ֢֪  ${prefix}sound146
-┃𖥔 ֶָ֢֪  ${prefix}sound147
-┃𖥔 ֶָ֢֪  ${prefix}sound148
-┃𖥔 ֶָ֢֪  ${prefix}sound149
-┃𖥔 ֶָ֢֪  ${prefix}sound150
-┃𖥔 ֶָ֢֪  ${prefix}sound151
-┃𖥔 ֶָ֢֪  ${prefix}sound152
-┃𖥔 ֶָ֢֪  ${prefix}sound153
-┃𖥔 ֶָ֢֪  ${prefix}sound154
-┃𖥔 ֶָ֢֪  ${prefix}sound155
-┃𖥔 ֶָ֢֪  ${prefix}sound156
-┃𖥔 ֶָ֢֪  ${prefix}sound157
-┃𖥔 ֶָ֢֪  ${prefix}sound158
-┃𖥔 ֶָ֢֪  ${prefix}sound159
-┃𖥔 ֶָ֢֪  ${prefix}sound160
-┃𖥔 ֶָ֢֪  ${prefix}sound161
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'gamemenu':{
-var unicorn = await getBuffer(picak+'Game Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙶𝙰𝙼𝙴 ✪✞══━┓ 	
-┃𖥔 ֶָ֢֪  ${prefix}truth
-┃𖥔 ֶָ֢֪  ${prefix}dare
-┃𖥔 ֶָ֢֪  ${prefix}tictactoe
-┃𖥔 ֶָ֢֪  ${prefix}delttt
-┃𖥔 ֶָ֢֪  ${prefix}guess [option]
-┃𖥔 ֶָ֢֪  ${prefix}math [mode]
-┃𖥔 ֶָ֢֪  ${prefix}suitpvp [tag]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-            case 'anonymousmenu':{
-var unicorn = await getBuffer(picak+'Anonymous Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏═══✪ ANONYMOUS 	
-┃𖥔 ֶָ֢֪ ${prefix}anonymous
-┃𖥔 ֶָ֢֪ ${prefix}start
-┃𖥔 ֶָ֢֪ ${prefix}next
-┃𖥔 ֶָ֢֪ ${prefix}leave
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'databasemenu':{
-var unicorn = await getBuffer(picak+'Database Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏═══✪ DATABASE 	
-┃𖥔 ֶָ֢֪  ${prefix}setcmd
-┃𖥔 ֶָ֢֪  ${prefix}listcmd
-┃𖥔 ֶָ֢֪  ${prefix}delcmd
-┃𖥔 ֶָ֢֪  ${prefix}lockcmd
-┃𖥔 ֶָ֢֪  ${prefix}addmsg
-┃𖥔 ֶָ֢֪  ${prefix}listmsg
-┃𖥔 ֶָ֢֪  ${prefix}getmsg
-┃𖥔 ֶָ֢֪  ${prefix}delmsg
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'othermenu':{
-var unicorn = await getBuffer(picak+'Other Menu')
-
-const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'Owner🌹'}, type: 1}
-]
-const buttonMessage = {
-    image: unicorn,
-    caption: `┏══━✞✪ 𝙾𝚃𝙷𝙴𝚁 ✪✞══━┓	
-┃𖥔 ֶָ֢֪  ${prefix}afk
-┃𖥔 ֶָ֢֪  ${prefix}id
-┃𖥔 ֶָ֢֪  ${prefix}toqr [link]
-┃𖥔 ֶָ֢֪  ${prefix}repeat
-┃𖥔 ֶָ֢֪  ${prefix}readmore [text]
-┃𖥔 ֶָ֢֪  ${prefix}toviewonce
-┃𖥔 ֶָ֢֪  ${prefix}fliptext [text]] 
-┃𖥔 ֶָ֢֪  ${prefix}alive
-┃𖥔 ֶָ֢֪  ${prefix}script
-┃𖥔 ֶָ֢֪  ${prefix}ping
-┃𖥔 ֶָ֢֪  ${prefix}owner
-┃𖥔 ֶָ֢֪  ${prefix}menu
-┃𖥔 ֶָ֢֪  ${prefix}delete
-┃𖥔 ֶָ֢֪  ${prefix}chatinfo
-┃𖥔 ֶָ֢֪  ${prefix}quoted
-┃𖥔 ֶָ֢֪  ${prefix}listpc
-┃𖥔 ֶָ֢֪  ${prefix}listgc
-┃𖥔 ֶָ֢֪  ${prefix}donate
-┃𖥔 ֶָ֢֪  ${prefix}request
-┃𖥔 ֶָ֢֪  ${prefix}report [bug]
-┗══════✪✞✪══════┛`,
-    footer: `${botname}`,
-    buttons: buttons,
-    headerType: 4
-}
-const sendMsg = await AsifOfc.sendMessage(m.chat, buttonMessage)
-}
 break
             default:
                 if (budy.startsWith('=>')) {
