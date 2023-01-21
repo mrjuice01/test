@@ -6638,13 +6638,6 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 										"rowId": `${prefix}othermenu`
 									     },
 										{
-										"title": "𝚆𝙰𝚁 𝙼𝙴𝙽𝚄🔫",
-										"description": "𝚃𝙷𝙸𝚂 𝙸𝚂 𝚆𝙷𝙴𝚁𝙴 𝚈𝙾𝚄 𝙰𝙻𝙻 𝙳𝙸𝙴👿",
-										"rowId": `${prefix}warmenu`
-									}
-								]
-							},
-							{
 										"title": "𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃 𝙼𝙴𝙽𝚄☠️️",
 										"description": "𝙳𝙸𝚂𝙿𝙻𝙰𝚈𝚂 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙽𝙾𝚈𝙼𝙾𝚄𝚂 𝙲𝙷𝙰𝚃",
 										"rowId": `${prefix}anonymousmenu`
@@ -6662,7 +6655,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 						]
 const listMessage = {
   text: "𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙷𝙾𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄",
-  footer: `${botname}\n😢𝚆𝙴𝙱𝚂𝙸𝚃𝙴: ${websitex}\n👙𝚂𝙲𝚁𝙸𝙿𝚃: ${botscript}`,
+  footer: `𝙰𝚂𝙸𝙵 𝙾𝙵𝙲\nhttp://wa.me/+923474187615`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
@@ -7360,7 +7353,6 @@ const buttonMessage = {
 ┃•𖥔  ${prefix}donate
 ┃•𖥔  ${prefix}request
 ┃•𖥔  ${prefix}report [bug]
-┃•𖥔 ◐══════✪「 BUG MENU 」	
 ┗══════✪✞✪══════┛`,
     footer: `${botname}`,
     buttons: buttons,
